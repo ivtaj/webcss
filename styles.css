@@ -60,3 +60,16 @@ h2, h3 {
     border-radius: 50%;
     background-color: red;
 }
+
+.contenedor-relativo {
+    position: relative;
+    width: 200px; /* Ajusta el ancho según sea necesario */
+    height: 100px; /* Ajusta la altura según sea necesario */
+    border: 1px solid black;
+}
+
+.btn-absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
