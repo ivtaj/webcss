@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="fuentes">
+    <header class="fondo">
+        <h1>Bienvenidos a mi pagina Web</h1>
+        <p class="alineamento">Esta es una página de ejemplo para el ejercicio</p>
+    </header>
+    <main>
+        <h2>Acerca de Nosotros</h2>
+        <p style="color: red;">Somos una empresa dedicada a la creación de páginas web</p>
+    </main>
+    <div id="contenedor">
+        <h2>Contenido Centrado</h2>
+        <p>Este es un ejemplo de un contenedor centrado horizontalmente.</p>
+    </div>
+    <div class="div-central">
+        <p>Este es un ejemplo de un div centrado horizontalmente con un ancho de 600px.</p>
+    </div>
+    <div class="circulo"></div>
+    <section class="destacado">
+        <h2>Nuestros Servicios</h2>
+        <ol type="a">
+            <li>Diseño de páginas web</li>
+            <li>Desarrollo de aplicaciones web</li>
+            <li>Optimización SEO</li>
+            <li><a href="https://www.ejemplo.com" target="_blank">Ver más servicios</a></li>
+        </ol>
+    </section>
+    <form>
+        <fieldset>
+            <legend>Información Personal</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+            <label for="fecha de nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fecha de nacimiento" name="fecha de nacimiento" required>
+            <label>Género:</label>
+            <input type="radio" id="masculino" name="genero" value="masculino" required>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="femenino" name="genero" value="femenino" required>
+            <label for="femenino">Femenino</label>
+            <input type="radio" id="otro" name="genero" value="otro" required>
+            <label for="otro">Otro</label>
+        </fieldset>
+        <fieldset>
+            <legend>Información de cuenta</legend>
+            <label for="nombre de usuario">Nombre de usuario:</label>
+            <input type="text" id="nombre de usuario" name="nombre de usuario" required>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+            <label for="confirmar_contrasena">Confirmar Contraseña:</label>
+            <input type="password" id="confirmar_contrasena" name="confirmar_contrasena" required>
+        </fieldset>
+        <fieldset>
+            <legend>Preferencias:</legend>
+            <label for="color_favorito">Color Favorito:</label>
+            <select id="color_favorito" name="color_favorito" required>
+                <option value="">Seleccione un color</option>
+                <option value="rojo">Rojo</option>
+                <option value="azul">Azul</option>
+                <option value="verde">Verde</option>
+                <option value="amarillo">Amarillo</option>
+            </select>
+            <label for="terminos">
+                <input type="checkbox" id="terminos" name="terminos" required>
+                Acepto los términos y condiciones
+            </label>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+    <div class="caja">
+        <p>Si tienes alguna duda, no dudes en contactarnos</p>
+    </div>
+    <div class="divs-en-linea">
+        <p>Div 1</p>
+    </div>
+    <div class="divs-en-linea">
+        <p>Div 2</p>
+    </div>
+    <div class="divs-en-linea">
+        <p>Div 3</p>
+    </div>
+    <footer>
+        <a href="mailto:info@miempresa.com"target="_blank">Enviar correo electrónico</a>
+        <a href="tel:+1234567890" target="_blank"> Llamar por teléfono</a>
+        <p>&copy; Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
