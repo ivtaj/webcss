@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi pagina Web</title>
+    <title>Mi Página Web</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="fuentes">
     <header class="fondo">
         <h1>Bienvenidos a mi pagina Web</h1>
         <p class="alineamento">Esta es una página de ejemplo para el ejercicio</p>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
     </header>
     <main>
         <h2>Acerca de Nosotros</h2>
@@ -32,8 +38,10 @@
             <li><a href="https://www.ejemplo.com" target="_blank">Ver más servicios</a></li>
         </ol>
     </section>
-    <form class="mover">
-        <fieldset>
+    <p class="variable">Este texto usa el color primario definido en la variable CSS.</p>
+    <p class="columnas">Este es un párrafo largo que se dividirá en dos columnas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.</p>
+    <form>
+        <fieldset class="mover">
             <legend>Información Personal</legend>
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
@@ -49,7 +57,7 @@
             <input type="radio" id="otro" name="genero" value="otro" required>
             <label for="otro">Otro</label>
         </fieldset>
-        <fieldset>
+        <fieldset class="menu-horizontal">
             <legend>Información de cuenta</legend>
             <label for="nombre de usuario">Nombre de usuario:</label>
             <input type="text" id="nombre de usuario" name="nombre de usuario" required>
@@ -72,7 +80,7 @@
                 <input type="checkbox" id="terminos" name="terminos" required>
                 Acepto los términos y condiciones
             </label>
-            <button type="submit">Enviar</button>
+            <button type="submit" class="boton">Enviar</button>
         </fieldset>
     </form>
     <div class="caja">
@@ -87,9 +95,15 @@
     <div class="divs-en-linea">
         <p>Div 3</p>
     </div>
+    
     <div class="contenedor-relativo">
-        <button class="btn-absolute">Botón</button>
+        <button class="btn-absolute boton">Botón</button>
     </div>
+    <div class="animacion"></div>
+    <div class="ocultar">Este elemento se ocultará en pantallas menores de 600px</div>
+    <img src="imagen.jpg" class="grayscale" alt="Imagen en escala de grises">
+    <div class="tarjeta">Esta es una tarjeta con sombra.</div>
+    <div class="spinner"></div>
     <footer>
         <a href="mailto:info@miempresa.com"target="_blank">Enviar correo electrónico</a>
         <a href="tel:+1234567890" target="_blank"> Llamar por teléfono</a>
